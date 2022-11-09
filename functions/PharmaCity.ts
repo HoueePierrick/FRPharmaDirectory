@@ -6,7 +6,9 @@ const pageHasResults = async (i: number, postalCode: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(
-    `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${i}`,
+    `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${
+      i + 1
+    }`,
     { waitUntil: "networkidle2" }
   );
   const hasResult: boolean = (await page.evaluate(() => {
@@ -27,11 +29,13 @@ export interface pageList {
 }
 
 // Scrap the list of pharmacies available on a page
-const pagePharmas = async (i: number, postalCode: string) => {
+const pagePharmas = async (z: number, postalCode: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(
-    `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${i}`,
+    `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${
+      z + 1
+    }`,
     { waitUntil: "networkidle2" }
   );
   const pageList: pageList[] = await page.evaluate(() => {
@@ -54,11 +58,12 @@ const pagePharmas = async (i: number, postalCode: string) => {
         sid,
         category,
         name,
-        page: i,
+        page: z + 1,
         postalCode,
       };
     });
   });
+  console.log(pageList);
   await browser.close();
   return pageList;
 };
@@ -67,7 +72,7 @@ const pagePharmas = async (i: number, postalCode: string) => {
 const getCityPharmas = async (postalCode: string) => {
   let result: pageList[] = [];
   for (let i = 0; i < 100; i++) {
-    console.log(`Scrapping page n°${i}`);
+    console.log(`Scrapping page n°${i + 1}`);
     const test = await pageHasResults(i, postalCode);
     if (test) {
       const pageContent = await pagePharmas(i, postalCode);
@@ -82,5 +87,7 @@ const getCityPharmas = async (postalCode: string) => {
 
 // let scrapped = await getCityPharmas();
 // console.log(scrapped);
+let result = await getCityPharmas("01004");
+console.log(result);
 
 export default getCityPharmas;

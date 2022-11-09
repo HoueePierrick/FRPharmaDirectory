@@ -1,11 +1,11 @@
 import fs from "fs";
-import allPostalCodes from "../external-data/postal-codes";
-import getCityPharmas from "./PharmaCity";
-import { pageList } from "./PharmaCity";
+import allPostalCodes from "../external-data/postal-codes.js";
+import getCityPharmas from "./PharmaCity.js";
+import { pageList } from "./PharmaCity.js";
 
-const saveToFile = (data: any) => {
+const saveToFile = async (data: any) => {
   fs.writeFile(
-    "./generated-data/allPharmas.json",
+    "../generated-data/allPharmas.json",
     JSON.stringify(data),
     "utf8",
     (err: any) => {
@@ -18,18 +18,29 @@ const saveToFile = (data: any) => {
   );
 };
 
-let AllPharmas: pageList[] = [];
-let newArray: pageList[] | undefined = [];
 // Test on 3 cities with 2 max (allPostalCodes.length)
-for (let i = 0; i < 2; i++) {
-  newArray = await getCityPharmas(allPostalCodes[i]);
-  if (newArray) {
-    if (newArray.length > 0) {
-      for (let j = 0; j < newArray.length; j++) {
-        AllPharmas.push(newArray[j]);
+const getAllPharmas = async () => {
+  let pharmaArray: pageList[] = [];
+  let newArray: pageList[] | undefined = [];
+  for (let i = 2; i < 3; i++) {
+    console.log(`Scrapping city number: ${i + 1}`);
+    newArray = await getCityPharmas(allPostalCodes[i]);
+    if (newArray) {
+      if (newArray.length > 0) {
+        for (let j = 0; j < newArray.length; j++) {
+          pharmaArray.push(newArray[j]);
+        }
       }
     }
   }
-}
+  return pharmaArray;
+};
 
+const AllPharmas = await getAllPharmas();
+console.log(AllPharmas);
 saveToFile(AllPharmas);
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(allPostalCodes[i]);
+// }
+// 2 first cities are empty, crashes when there is data: 01004
