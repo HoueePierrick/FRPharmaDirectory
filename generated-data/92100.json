@@ -1,0 +1,415 @@
+[
+  {
+    "sid": "86703",
+    "category": "pharmacies",
+    "name": "PHARMACIE BERKATI-LOUIBA",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "64378",
+    "category": "pharmacies",
+    "name": "PHARMACIE DAURIAC",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "96562",
+    "category": "pharmacies",
+    "name": "PHARMACIE REINE",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "102019",
+    "category": "industries",
+    "name": "EXELTIS SANTE",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "45685",
+    "category": "pharmacies",
+    "name": "PHARMACIE DUFFAU",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "39756",
+    "category": "hospital",
+    "name": "I.E.C.E.P.",
+    "pagenum": 1,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "6220",
+    "category": "hospital",
+    "name": "CENTRE CLINIQUE DE LA PORTE DE SAINT CLOUD",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "67518",
+    "category": "pharmacies",
+    "name": "PHARMACIE ROCHA MONTEIRO",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "108389",
+    "category": "industries",
+    "name": "HIKMA FRANCE",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "57700",
+    "category": "distribution",
+    "name": "REPSCO PROMOTION",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "99725",
+    "category": "industries",
+    "name": "PRODILAB",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "69557",
+    "category": "industries",
+    "name": "ADVANCED ACCELERATOR APPLICATIONS",
+    "pagenum": 2,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "81908",
+    "category": "industries",
+    "name": "LABORATOIRE CTRS",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "96185",
+    "category": "pharmacies",
+    "name": "PHARMACIE DU PARC DE LA REINE",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "76313",
+    "category": "pharmacies",
+    "name": "PHARMACIE LAO-MENARD",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "97364",
+    "category": "industries",
+    "name": "IPSEN CONSUMER HEALTHCARE",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "108160",
+    "category": "industries",
+    "name": "BIOCRYST FRANCE SAS",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "30854",
+    "category": "pharmacies",
+    "name": "PHARMACIE MAAREK",
+    "pagenum": 3,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "28567",
+    "category": "pharmacies",
+    "name": "PHARMACIE KHIAT - ICART",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "67407",
+    "category": "industries",
+    "name": "GILEAD SCIENCES",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "99372",
+    "category": "pharmacies",
+    "name": "SELAS PHARMACIE DE L'AMICALE",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "104149",
+    "category": "pharmacies",
+    "name": "PHARMACIE JAIS",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "28021",
+    "category": "pharmacies",
+    "name": "PHARMACIE WERQUIN",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "102543",
+    "category": "pharmacies",
+    "name": "PHARMACIE ATTAL",
+    "pagenum": 4,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "79493",
+    "category": "pharmacies",
+    "name": "PHARMACIE TABET",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "101782",
+    "category": "pharmacies",
+    "name": "SELARL PHARMACIE CENTRALE",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "102861",
+    "category": "pharmacies",
+    "name": "PHARMACIE L.A.M.",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "102865",
+    "category": "pharmacies",
+    "name": "PHARMACIE MADIRO",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "49342",
+    "category": "pharmacies",
+    "name": "PHARMACIE VINIT - GERVAIS",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "90353",
+    "category": "industries",
+    "name": "INCYTE BIOSCIENCES FRANCE",
+    "pagenum": 5,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "108630",
+    "category": "pharmacies",
+    "name": "SELAS PHARMACIE KERMEN BILLANCOURT",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "66061",
+    "category": "pharmacies",
+    "name": "PHARMACIE MALOTAUX",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "95861",
+    "category": "pharmacies",
+    "name": "SELARL PHARMACIE RHIN ET DANUBE",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "81510",
+    "category": "industries",
+    "name": "PHARMA MAR SARL",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "79608",
+    "category": "pharmacies",
+    "name": "PHARMACIE DAHAN",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "80321",
+    "category": "pharmacies",
+    "name": "PHARMACIE EISENBETH",
+    "pagenum": 6,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "103881",
+    "category": "pharmacies",
+    "name": "PHARMACIE MLYNARSKI",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "55369",
+    "category": "pharmacies",
+    "name": "PHARMACIE ROULAND-LELONG",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "57973",
+    "category": "pharmacies",
+    "name": "PHARMACIE DAHAN",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "59312",
+    "category": "industries",
+    "name": "IPSEN PHARMA",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "79218",
+    "category": "pharmacies",
+    "name": "PHARMACIE DESENS - LE VAN",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "90461",
+    "category": "autres",
+    "name": "HU-PARIS IDF SITE AMBROISE PARIS APHP",
+    "pagenum": 7,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "109098",
+    "category": "biology",
+    "name": "BIOTEK",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "23401",
+    "category": "pharmacies",
+    "name": "PHARMACIE OZIEL-UZAN",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "40994",
+    "category": "pharmacies",
+    "name": "PHARMACIE KOK",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "83687",
+    "category": "industries",
+    "name": "AMGEN SAS",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "79913",
+    "category": "pharmacies",
+    "name": "PHARMACIE QUINTAINE-LACOUR",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "41929",
+    "category": "hospital",
+    "name": "CENTRE CHIRURGICAL DES PRINCES",
+    "pagenum": 8,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "79515",
+    "category": "pharmacies",
+    "name": "PHARMACIE DEPREZ-SOUVERAIN",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "55481",
+    "category": "pharmacies",
+    "name": "PHARMACIE COHEN-BOULANGER",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "54148",
+    "category": "industries",
+    "name": "OCTAPHARMA FRANCE",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "6216",
+    "category": "hospital",
+    "name": "CLINIQUE MARCEL SEMBAT",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "6219",
+    "category": "hospital",
+    "name": "CENTRE DE GERONTOLOGIE",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "93191",
+    "category": "pharmacies",
+    "name": "PHARMACIE LEVIEILS-ADOLPHE",
+    "pagenum": 9,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "102027",
+    "category": "industries",
+    "name": "AMRYT PHARMACEUTICALS SAS",
+    "pagenum": 10,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "105964",
+    "category": "pharmacies",
+    "name": "PHARMACIE NORE-VIDAL",
+    "pagenum": 10,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "107420",
+    "category": "industries",
+    "name": "DR. FALK PHARMA SAS",
+    "pagenum": 10,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "69202",
+    "category": "biology",
+    "name": "SELARL LABORATOIRE DU GÉNÉRAL LECLERC",
+    "pagenum": 10,
+    "postalCode": "92100"
+  },
+  {
+    "sid": "73520",
+    "category": "pharmacies",
+    "name": "PHARMACIE SOROUSH",
+    "pagenum": 10,
+    "postalCode": "92100"
+  }
+]
