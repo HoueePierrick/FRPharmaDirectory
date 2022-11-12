@@ -1,15 +1,24 @@
 import { pageList } from "./PharmaCity";
 import puppeteer from "puppeteer";
-import { saveToFile } from "./AllPharmas";
+import { saveToFile } from "./AllPharmas.js";
 
 import data from "../generated-data/92100.json" assert { type: "json" };
 
 // As an example
-const reine = {
-  sid: "96562",
+// const reine = {
+//   sid: "96562",
+//   category: "pharmacies",
+//   name: "PHARMACIE REINE",
+//   pagenum: 1,
+//   postalCode: "92100",
+// };
+
+// Second example
+const LAM = {
+  sid: "102861",
   category: "pharmacies",
-  name: "PHARMACIE REINE",
-  pagenum: 1,
+  name: "PHARMACIE L.A.M.",
+  pagenum: 5,
   postalCode: "92100",
 };
 
@@ -46,14 +55,12 @@ const getPharmacyDetails = async (input: pageList) => {
   console.log(`Scrapping pharmacy ${name}`);
   const result = await page.evaluate(() => {
     // Getting all relevant elements to be scrapped
-    const focus = document.querySelector(
-      ".toggle-block > li > div"
+    let focus = document.querySelector(
+      // .toggle-block > li > div
+      ".toggle-block > li"
     ) as HTMLElement;
-    const allElems = [
-      ...focus.querySelectorAll(
-        // .toggle-block > ul > li >
-        ".inlineBlock > p"
-      ),
+    let allElems = [
+      ...focus.querySelectorAll(".inlineBlock > p"),
     ] as HTMLElement[];
     const keyData = allElems.map((el) => {
       return el.innerText.trim().split("\n");
@@ -102,8 +109,18 @@ const getPharmacyDetails = async (input: pageList) => {
   return result;
 };
 
-const displayed = await getPharmacyDetails(reine);
-console.log(displayed);
+let testjson: result[] = [];
+
+for (let i = 0; i < data.length; i++) {
+  const tobepushed = await getPharmacyDetails(data[i]);
+  testjson.push(tobepushed);
+}
+
+saveToFile(testjson, "92100details");
+
+export default getPharmacyDetails;
+// const displayed = await getPharmacyDetails(reine);
+// console.log(displayed);
 
 // TO DO (probably)
 // Trim
@@ -127,46 +144,46 @@ console.log(displayed);
 
 // Key data is that:
 
-[
-  [
-    "Raison sociale : PHARMACIE REINE",
-    "Adresse : 126 RTE DE LA REINE",
-    "> Plan d'accès",
-  ],
-  ["Code postal - ville : 92100 BOULOGNE-BILLANCOURT"],
-  ["Téléphone : 0146040062"],
-  ["Télécopie : 0146054933"],
-  [
-    "RUDY COHEN",
-    "PHARMACIEN TITULAIRE D'OFFICINE",
-    "Date d'inscription à cette activité : 07/02/2019",
-    "Section d'inscription : A",
-  ],
-  [
-    "THOMAS JAILLETTE",
-    "PHARMACIEN ADJOINT D'OFFICINE",
-    "Date d'inscription à cette activité : 08/01/2020",
-    "Section d'inscription : D",
-  ],
-  [
-    "JONATHAN SADOUN",
-    "PHARMACIEN ADJOINT D'OFFICINE",
-    "Date d'inscription à cette activité : 07/02/2019",
-    "Section d'inscription : D",
-  ],
-  [
-    "DÉBORAH WAJNSZTOK-ROSIER",
-    "PHARMACIEN ADJOINT D'OFFICINE",
-    "Date d'inscription à cette activité : 26/02/2019",
-    "Section d'inscription : D",
-  ],
-];
+// [
+//   [
+//     "Raison sociale : PHARMACIE REINE",
+//     "Adresse : 126 RTE DE LA REINE",
+//     "> Plan d'accès",
+//   ],
+//   ["Code postal - ville : 92100 BOULOGNE-BILLANCOURT"],
+//   ["Téléphone : 0146040062"],
+//   ["Télécopie : 0146054933"],
+//   [
+//     "RUDY COHEN",
+//     "PHARMACIEN TITULAIRE D'OFFICINE",
+//     "Date d'inscription à cette activité : 07/02/2019",
+//     "Section d'inscription : A",
+//   ],
+//   [
+//     "THOMAS JAILLETTE",
+//     "PHARMACIEN ADJOINT D'OFFICINE",
+//     "Date d'inscription à cette activité : 08/01/2020",
+//     "Section d'inscription : D",
+//   ],
+//   [
+//     "JONATHAN SADOUN",
+//     "PHARMACIEN ADJOINT D'OFFICINE",
+//     "Date d'inscription à cette activité : 07/02/2019",
+//     "Section d'inscription : D",
+//   ],
+//   [
+//     "DÉBORAH WAJNSZTOK-ROSIER",
+//     "PHARMACIEN ADJOINT D'OFFICINE",
+//     "Date d'inscription à cette activité : 26/02/2019",
+//     "Section d'inscription : D",
+//   ],
+// ];
 
-// Checking if string is at case
-// const letter = 'A';
+// // Checking if string is at case
+// // const letter = 'A';
 
-// if (letter.toUpperCase() === letter) {
-//   console.log('✅ letter is uppercase');
-// } else {
-//   console.log('⛔️ letter is lowercase');
-// }
+// // if (letter.toUpperCase() === letter) {
+// //   console.log('✅ letter is uppercase');
+// // } else {
+// //   console.log('⛔️ letter is lowercase');
+// // }
