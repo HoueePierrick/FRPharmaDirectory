@@ -3,9 +3,10 @@ import allPostalCodes from "../external-data/postal-codes.js";
 import getCityPharmas from "./PharmaCity.js";
 import { pageList } from "./PharmaCity.js";
 
-const saveToFile = async (data: any) => {
+export const saveToFile = async (data: any, name: string) => {
   fs.writeFile(
-    "../generated-data/allPharmas.json",
+    // "../generated-data/allPharmas.json",
+    `../generated-data/${name}.json`,
     JSON.stringify(data),
     "utf8",
     (err: any) => {
@@ -22,25 +23,26 @@ const saveToFile = async (data: any) => {
 const getAllPharmas = async () => {
   let pharmaArray: pageList[] = [];
   let newArray: pageList[] | undefined = [];
-  for (let i = 0; i < allPostalCodes.length; i++) {
-    setTimeout(() => {
-      console.log(`Scrapping city number: ${i + 1}`);
-    }, 74);
-    newArray = await getCityPharmas(allPostalCodes[i]);
-    if (newArray) {
-      if (newArray.length > 0) {
-        for (let j = 0; j < newArray.length; j++) {
-          pharmaArray.push(newArray[j]);
-        }
+  // for (let i = 0; i < allPostalCodes.length; i++) {
+  //   setTimeout(() => {
+  //     console.log(`Scrapping city number: ${i + 1}`);
+  //   }, 277);
+  //   newArray = await getCityPharmas(allPostalCodes[i]);
+  newArray = await getCityPharmas("92100");
+  if (newArray) {
+    if (newArray.length > 0) {
+      for (let j = 0; j < newArray.length; j++) {
+        pharmaArray.push(newArray[j]);
       }
     }
   }
+  // }
   return pharmaArray;
 };
 
 const AllPharmas = await getAllPharmas();
 // console.log(AllPharmas);
-saveToFile(AllPharmas);
+saveToFile(AllPharmas, "92100");
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(allPostalCodes[i]);
