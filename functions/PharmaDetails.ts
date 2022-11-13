@@ -14,13 +14,13 @@ import data from "../generated-data/92100.json" assert { type: "json" };
 // };
 
 // Second example
-const LAM = {
-  sid: "102861",
-  category: "pharmacies",
-  name: "PHARMACIE L.A.M.",
-  pagenum: 5,
-  postalCode: "92100",
-};
+// const LAM = {
+//   sid: "102861",
+//   category: "pharmacies",
+//   name: "PHARMACIE L.A.M.",
+//   pagenum: 5,
+//   postalCode: "92100",
+// };
 
 // Interfaces documenting the expected result
 interface pharmacists {
@@ -51,7 +51,7 @@ const getPharmacyDetails = async (input: pageList) => {
   }
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(searchURL, { waitUntil: "networkidle2" });
+  await page.goto(searchURL, { waitUntil: "networkidle2", timeout: 0 });
   console.log(`Scrapping pharmacy ${name}`);
   const result = await page.evaluate(() => {
     // Getting all relevant elements to be scrapped

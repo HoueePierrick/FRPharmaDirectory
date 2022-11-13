@@ -40,9 +40,10 @@ const getAllPharmas = async () => {
   return pharmaArray;
 };
 
-// const AllPharmas = await getAllPharmas();
-// // console.log(AllPharmas);
-// saveToFile(AllPharmas, "92100");
+// console.log(allPostalCodes[153]);
+const AllPharmas = await getAllPharmas();
+// // // console.log(AllPharmas);
+await saveToFile(AllPharmas, "allPharmas");
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(allPostalCodes[i]);
