@@ -2,6 +2,7 @@ import fs from "fs";
 import allPostalCodes from "../external-data/postal-codes.js";
 import getCityPharmas from "./PharmaCity.js";
 import { pageList } from "./PharmaCity.js";
+import sleep from "./Pause.js";
 
 export const saveToFile = async (data: any, name: string) => {
   fs.writeFile(
@@ -24,9 +25,7 @@ const getAllPharmas = async () => {
   let pharmaArray: pageList[] = [];
   let newArray: pageList[] | undefined = [];
   for (let i = 0; i < allPostalCodes.length; i++) {
-    setTimeout(() => {
-      console.log(`Scrapping city number: ${i + 1}`);
-    }, 277);
+    await sleep(277);
     newArray = await getCityPharmas(allPostalCodes[i]);
     // newArray = await getCityPharmas("92100");
     if (newArray) {
