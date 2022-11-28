@@ -5,19 +5,34 @@ import puppeteer from "puppeteer";
 const pageHasResults = async (i: number, postalCode: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(
+  const status = await page.goto(
     `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${
       i + 1
     }`,
-    { waitUntil: "networkidle2" }
+    { waitUntil: "networkidle2", timeout: 0 }
   );
+
+  // Checking if there is a server answer (no if status 404)
+  let pageExist = true;
+  const statusCode = await status?.status();
+  if (statusCode === 404) {
+    pageExist = false;
+  }
+
+  // Checking if there are results (i.e. we can find a class "no-result")
   const hasResult: boolean = (await page.evaluate(() => {
     return document.querySelector(".no-result");
   }))
     ? false
     : true;
   await browser.close();
-  return hasResult;
+
+  // Returning result
+  if (pageExist) {
+    return hasResult;
+  } else {
+    return false;
+  }
 };
 
 export interface pageList {
@@ -33,10 +48,19 @@ const pagePharmas = async (z: number, postalCode: string) => {
   const pagenum: number = z + 1;
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(
+  const status = await page.goto(
     `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${pagenum}`,
-    { waitUntil: "networkidle2" }
+    { waitUntil: "networkidle2", timeout: 0 }
   );
+
+  // Checking if there is a server answer (no if status 404)
+  let pageExist = true;
+  const statusCode = await status?.status();
+  if (statusCode === 404) {
+    pageExist = false;
+  }
+
+  // Scrapping page content
   const pageList: pageList[] = await page.evaluate(
     (pagenum, postalCode) => {
       const ul = [
@@ -68,13 +92,19 @@ const pagePharmas = async (z: number, postalCode: string) => {
   );
   // console.log(pageList);
   await browser.close();
-  return pageList;
+
+  // Returning result based on request status
+  if (pageExist) {
+    return pageList;
+  } else {
+    return [];
+  }
 };
 
 // Get list of pharmacies on a city (multiple pages)
 const getCityPharmas = async (postalCode: string) => {
   let result: pageList[] = [];
-  let pageContent: pageList[];
+  let pageContent: pageList[] = [];
   for (let i = 0; i < 100; i++) {
     console.log(`Scrapping page n°${i + 1}`);
     const test = await pageHasResults(i, postalCode);

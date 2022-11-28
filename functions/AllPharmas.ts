@@ -3,9 +3,10 @@ import allPostalCodes from "../external-data/postal-codes.js";
 import getCityPharmas from "./PharmaCity.js";
 import { pageList } from "./PharmaCity.js";
 
-const saveToFile = async (data: any) => {
+export const saveToFile = async (data: any, name: string) => {
   fs.writeFile(
-    "../generated-data/allPharmas.json",
+    // "../generated-data/allPharmas.json",
+    `../generated-data/${name}.json`,
     JSON.stringify(data),
     "utf8",
     (err: any) => {
@@ -25,8 +26,9 @@ const getAllPharmas = async () => {
   for (let i = 0; i < allPostalCodes.length; i++) {
     setTimeout(() => {
       console.log(`Scrapping city number: ${i + 1}`);
-    }, 3700);
+    }, 277);
     newArray = await getCityPharmas(allPostalCodes[i]);
+    // newArray = await getCityPharmas("92100");
     if (newArray) {
       if (newArray.length > 0) {
         for (let j = 0; j < newArray.length; j++) {
@@ -38,9 +40,10 @@ const getAllPharmas = async () => {
   return pharmaArray;
 };
 
+// console.log(allPostalCodes[153]);
 const AllPharmas = await getAllPharmas();
-// console.log(AllPharmas);
-saveToFile(AllPharmas);
+// // // console.log(AllPharmas);
+await saveToFile(AllPharmas, "allPharmas");
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(allPostalCodes[i]);

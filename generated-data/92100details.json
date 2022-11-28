@@ -1,0 +1,1804 @@
+[
+  {
+    "legalName": "PHARMACIE BERKATI-LOUIBA",
+    "codeCity": "",
+    "city": "",
+    "address": "9 R DE SEVRES",
+    "phone": "0148251742",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "LINDA BERKATI",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/08/2016",
+        "section": "A"
+      },
+      {
+        "fullName": "NATALYA BEY",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "30/01/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "VICTOIRE OLIVIER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "06/11/2017",
+        "section": "D"
+      },
+      {
+        "fullName": "CHRISTIAN ZHOU",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "09/09/2020",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DAURIAC",
+    "codeCity": "",
+    "city": "",
+    "address": "55 AV EDOUARD VAILLANT",
+    "phone": "0146204677",
+    "fax": "0146203404",
+    "pharmacists": [
+      {
+        "fullName": "LAURENT ASSARAF",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "25/09/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "STÉPHANIE DAURIAC",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "08/12/2010",
+        "section": "A"
+      },
+      {
+        "fullName": "VICTOIRE OLIVIER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "27/10/2016",
+        "section": "D"
+      },
+      {
+        "fullName": "ALBANE ROBET",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "06/06/2014",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE REINE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "126 RTE DE LA REINE",
+    "phone": "0146040062",
+    "fax": "0146054933",
+    "pharmacists": [
+      {
+        "fullName": "RUDY COHEN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "07/02/2019",
+        "section": "A"
+      },
+      {
+        "fullName": "THOMAS JAILLETTE",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "08/01/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "JONATHAN SADOUN",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "07/02/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "DÉBORAH WAJNSZTOK-ROSIER",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "26/02/2019",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "EXELTIS SANTE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "15 R DE VANVES",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "STEPHANE CARDON",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "29/06/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "SEBASTIEN MILLIOT",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "29/06/2020",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DUFFAU",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "49 R DE L'EST",
+    "phone": "0146050154",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "MARIE-DOMINIQUE D'HOUDAIN-DEVAUX",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "24/06/2008",
+        "section": "D"
+      },
+      {
+        "fullName": "HÉLÈNE DARRÉ-SERRES",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "05/01/2010",
+        "section": "D"
+      },
+      {
+        "fullName": "ROGER DUFFAU",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/04/2004",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "I.E.C.E.P.",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "10 R ANNA JACQUIN",
+    "phone": "0146050505",
+    "fax": "0146840708",
+    "pharmacists": [
+      {
+        "fullName": "FRANCOIS-LUC MONGE",
+        "role": "PHARMACIEN GÉRANT ES PRIVÉ T.PARTI",
+        "inscriptionDate": "03/07/2018",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "CENTRE CLINIQUE DE LA PORTE DE SAINT CLOUD",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "30 R DE PARIS",
+    "phone": "0141102727",
+    "fax": "0146033295",
+    "pharmacists": [
+      {
+        "fullName": "FADEL ATBAOUI",
+        "role": "PHARMACIEN GÉRANT ES PRIVÉ T.PLEIN",
+        "inscriptionDate": "08/07/2020",
+        "section": "H"
+      },
+      {
+        "fullName": "DENIS COMON",
+        "role": "PHARMACIEN ADJOINT ES PRIVÉ T.PLEIN",
+        "inscriptionDate": "29/04/2021",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE ROCHA MONTEIRO",
+    "codeCity": "",
+    "city": "",
+    "address": "60 AV PIERRE GRENIER",
+    "phone": "0146082861",
+    "fax": "0146086334",
+    "pharmacists": [
+      {
+        "fullName": "MARIE-PIERRE DOAT-MARECHAL",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/08/2011",
+        "section": "D"
+      },
+      {
+        "fullName": "MANUELA ROCHA MONTEIRO",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/08/2011",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "HIKMA FRANCE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "105 R MARCEL DASSAULT",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "RINA KONFINO",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "20/05/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "NESRINE NOUHI",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "20/05/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "HAJAR YOUSSOUFI",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "20/05/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "REPSCO PROMOTION",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "91/93 R MARCEL DASSAULT",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "PHILIPPE TACHER",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "24/07/2008",
+        "section": "C"
+      }
+    ]
+  },
+  {
+    "legalName": "PRODILAB",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "78 BD DE LA REPUBLIQUE",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "BRUNO AVEZOU",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "21/11/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE-CHRISTINE LOTZ",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "08/10/2019",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "ADVANCED ACCELERATOR APPLICATIONS",
+    "codeCity": "92100",
+    "city": "SAINT-CLOUD",
+    "address": "3 R CHARLES LAUER",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "GHISLAIN AVOT D'ESPINAY SAINT LUC",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "18/03/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "ANTOINE DANVY",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "06/10/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "MYRTILLE GBALLOU",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "17/05/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "THOMAS PATARD",
+        "role": "DELEGUE INDUSTRIE",
+        "inscriptionDate": "28/02/2020",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "LABORATOIRE CTRS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "63 R DE L'EST",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "MORGANE DROUET",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "19/01/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "LESLIE GEORGES",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "14/01/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "PAULINE JACQUETY",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "07/03/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "PHILIPPE MARET",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "17/02/2015",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DU PARC DE LA REINE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "107 RTE DE LA REINE",
+    "phone": "0149090336",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "MIREN CASSIEDE-MENET HAURE",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "31/12/2018",
+        "section": "A"
+      },
+      {
+        "fullName": "MICHEL DELIBES",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "10/05/2019",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE LAO-MENARD",
+    "codeCity": "",
+    "city": "",
+    "address": "83 AV JEAN-BAPTISTE CLEMENT",
+    "phone": "0146050278",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "DELPHINE LAO",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/09/2013",
+        "section": "A"
+      },
+      {
+        "fullName": "CELINE PIGANEAU-ISAMBERT",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "01/09/2013",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "IPSEN CONSUMER HEALTHCARE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "65 QU GEORGES GORSE",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "AXELLE ARNAULT DE LA MENARDIERE",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "01/06/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "PAULINE DUVOUX",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "04/02/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "DAPHNEY NASRALLAH",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "23/04/2019",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "BIOCRYST FRANCE SAS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "121 R D'AGUESSEAU",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "FRANCOIS-XAVIER BUI QUOC",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "05/09/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE-PAULE TROUVIN",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "05/09/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "MONA VILLEDIEU",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "23/09/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE MAAREK",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "128 BD JEAN JAURES",
+    "phone": "0146050553",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "PAULINE LE MERRE",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "18/01/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "DIDIER MAAREK",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "22/03/2000",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE KHIAT - ICART",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "56 R DE SEVRES",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "MARIE-CLAIRE ICART",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "21/06/1993",
+        "section": "A"
+      },
+      {
+        "fullName": "CATHERINE KHIAT",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "21/06/1993",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "GILEAD SCIENCES",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "65 QU GEORGES GORSE",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "JULIE BOÏ",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "15/12/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "VIRGINIE COLLAS-AUBERT",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "04/12/2017",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE-AMÉLIE DE PORTAL",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "19/02/2019",
+        "section": "B"
+      },
+      {
+        "fullName": "ISABELLE HOCHE-SCHMITT",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "08/01/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "XAVIER HUET",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "29/08/2011",
+        "section": "B"
+      },
+      {
+        "fullName": "MICHEL JOLY",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "19/02/2014",
+        "section": "B"
+      },
+      {
+        "fullName": "CHRISTELLE LAGOUTE",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "19/02/2019",
+        "section": "B"
+      },
+      {
+        "fullName": "NANTHILDE MARTIN-MOURER",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "15/05/2012",
+        "section": "B"
+      },
+      {
+        "fullName": "CAMILLE PEIGNÉ",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "17/01/2019",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE TERRIER",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "15/05/2012",
+        "section": "B"
+      },
+      {
+        "fullName": "EMILIE VILLENEUVE",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "01/12/2016",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "SELAS PHARMACIE DE L'AMICALE",
+    "codeCity": "",
+    "city": "",
+    "address": "176 BD JEAN JAURES",
+    "phone": "0146052085",
+    "fax": "0146998656",
+    "pharmacists": [
+      {
+        "fullName": "CAROLINE BORDIER",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "18/11/2019",
+        "section": "A"
+      },
+      {
+        "fullName": "IDALINHA DA CUNHA-D'SOUZA",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "18/10/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "ANNE DE LESTANG LABROUSSE",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "18/11/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "ROXANE GOUDARZI",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "18/11/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "HÉLÈNE PAUCHET",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "05/11/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "FLORA PAUWELS",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "18/11/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "ISABELLE POULLOT-GUILLARD",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "18/11/2019",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE JAIS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "247B BD JEAN JAURES",
+    "phone": "0146214811",
+    "fax": "0146210143",
+    "pharmacists": [
+      {
+        "fullName": "PATRICIA GERMAIN",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/04/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "EVE JAÏS",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "12/04/2021",
+        "section": "A"
+      },
+      {
+        "fullName": "MARTINE LASRY",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "28/10/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "SARAH SERRAF-OUAKNIN",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "07/10/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "MICKAËL SOUSSAN",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "24/07/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "JUDITH WERTHEIMER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "09/05/2022",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "",
+    "phone": "0146214460",
+    "fax": "0146204490",
+    "pharmacists": [
+      {
+        "fullName": "MATHIEU GUEROS",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "20/01/2012",
+        "section": "D"
+      },
+      {
+        "fullName": "CYRILLE PIGNOT",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "11/09/2003",
+        "section": "D"
+      },
+      {
+        "fullName": "MARC WERQUIN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "28/06/2001",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE ATTAL",
+    "codeCity": "",
+    "city": "",
+    "address": "186T R DU GÉNÉRAL GALLIENI",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "LAURENT ATTAL",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "11/01/2021",
+        "section": "A"
+      },
+      {
+        "fullName": "STÉPHANIE DE LAVALETTE",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "11/01/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "ELODIE POIREL-BOSSON",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "08/09/2021",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE TABET",
+    "codeCity": "",
+    "city": "",
+    "address": "23 R DANJOU",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "ALEXANDRA PILLEBOUT-FLEURY",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "01/07/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "JOHN TABET",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/07/2014",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "SELARL PHARMACIE CENTRALE",
+    "codeCity": "",
+    "city": "",
+    "address": "197 BD JEAN JAURES",
+    "phone": "0146050502",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "CLÉMENT BOURBIGOT",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/08/2020",
+        "section": "A"
+      },
+      {
+        "fullName": "THAÏSE CLÉNET",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/08/2020",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE L.A.M.",
+    "codeCity": "",
+    "city": "",
+    "address": "60/64 AV DU GENERAL LECLERC",
+    "phone": "0146052590",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "CHRISTINE COUNOY",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "15/12/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "LAÏKA MAMODALY-ADJIJALY",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "15/12/2020",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE MADIRO",
+    "codeCity": "",
+    "city": "",
+    "address": "50 AV VICTOR HUGO",
+    "phone": "0146052828",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "RÉMI CHOPLIN",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/03/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "MARION LEVY",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "21/12/2020",
+        "section": "A"
+      },
+      {
+        "fullName": "PASCALE LEVY",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "25/03/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "PIERRE RAYNAL",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "21/12/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "CHRYSTELLE STIRNEMANN",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "11/09/2022",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE VINIT - GERVAIS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "105 AV PIERRE GRENIER",
+    "phone": "0146202499",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "SUZANNE GERVAIS-BERNARD",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/11/2005",
+        "section": "A"
+      },
+      {
+        "fullName": "BRIGITTE VINIT-WAGNER",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/11/2005",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "INCYTE BIOSCIENCES FRANCE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "35T AV ANDRE MORIZET",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "STEPHANE COUDERC",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "15/01/2018",
+        "section": "B"
+      },
+      {
+        "fullName": "INGRID JUCHEREAU-LEMAIRE",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "24/06/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "SELAS PHARMACIE KERMEN BILLANCOURT",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "280 BD JEAN JAURES",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "PIERRE AUSSAGE",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "07/07/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "MATHILDE BECQUET",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "07/07/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "CHARLOTTE BENSAID",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "07/07/2022",
+        "section": "A"
+      },
+      {
+        "fullName": "EMMA DESCHAMPS",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "07/07/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "LORIS DUFFOURG",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "07/07/2022",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE MALOTAUX",
+    "codeCity": "",
+    "city": "",
+    "address": "50 AV DU GENERAL LECLERC",
+    "phone": "0146053222",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "ANNE-SOPHIE GUENAN-JACQUES",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "15/05/2011",
+        "section": "D"
+      },
+      {
+        "fullName": "CHRISTOPHE MALOTAUX",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "15/05/2011",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "SELARL PHARMACIE RHIN ET DANUBE",
+    "codeCity": "",
+    "city": "",
+    "address": "21 RPT RHIN ET DANUBE",
+    "phone": "0146050065",
+    "fax": "0146050020",
+    "pharmacists": [
+      {
+        "fullName": "MOHAMED AZZOUZI",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "10/12/2018",
+        "section": "A"
+      },
+      {
+        "fullName": "EMMANUELLE JUNQUA SALANNE",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "10/12/2018",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMA MAR SARL",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "6 R DE L'EST",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "ANIA FERAOUN",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "17/02/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "PIERRE HOFFMANN",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "28/06/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DAHAN",
+    "codeCity": "",
+    "city": "",
+    "address": "38 AV JEAN BAPTISTE CLEMENT",
+    "phone": "",
+    "fax": "0970624836",
+    "pharmacists": [
+      {
+        "fullName": "LAURENCE BERLIER-CHENEVIER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "09/01/2016",
+        "section": "D"
+      },
+      {
+        "fullName": "KÉVIN DAHAN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "07/07/2014",
+        "section": "A"
+      },
+      {
+        "fullName": "ANNE-CHARLOTTE ELIA",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "03/04/2018",
+        "section": "D"
+      },
+      {
+        "fullName": "ISABELLE ROUSSEL-BETHULEAU",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "07/07/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "MARIANNA TALAMO",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "05/02/2020",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE EISENBETH",
+    "codeCity": "",
+    "city": "",
+    "address": "68 BD JEAN-JAURES",
+    "phone": "0148257205",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "PHILIPPE EISENBETH",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "18/07/2014",
+        "section": "A"
+      },
+      {
+        "fullName": "JEAN-FRANCOIS GALLINARI",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "18/07/2014",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE MLYNARSKI",
+    "codeCity": "",
+    "city": "",
+    "address": "32 BD JEAN JAURES",
+    "phone": "0146050687",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "PIERRE CHARBIT",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "17/09/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "VIVIANE PAGES",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "29/08/2022",
+        "section": "D"
+      },
+      {
+        "fullName": "STÉPHANIE YATIME",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "15/03/2021",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE ROULAND-LELONG",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "45 AV JEAN-BAPTISTE CLEMENT",
+    "phone": "0146051178",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "DANIÉLA BOUDJEMA-PARTIS",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "26/10/2012",
+        "section": "D"
+      },
+      {
+        "fullName": "AMELIE GAUCHE",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "16/08/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "CAMILLE JAYET",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "06/01/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "DOROTHEE ROULAND-LELONG",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/11/2007",
+        "section": "A"
+      },
+      {
+        "fullName": "ISABELLE ULRICH-CAPPART",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "02/11/2007",
+        "section": "D"
+      },
+      {
+        "fullName": "DOMINIQUE VIENOT DE VAUBLANC-BARLET",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "01/11/2007",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DAHAN",
+    "codeCity": "",
+    "city": "",
+    "address": "24 R JEAN JAURES",
+    "phone": "0146050391",
+    "fax": "0146053859",
+    "pharmacists": [
+      {
+        "fullName": "ALEXIS DAHAN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/09/2008",
+        "section": "A"
+      },
+      {
+        "fullName": "AURÉLIE ELBAZ",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/11/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "SOPHIE JOB",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "22/01/2013",
+        "section": "D"
+      },
+      {
+        "fullName": "LAURENCE LASRY-TIBI",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/09/2008",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "IPSEN PHARMA",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "65 QU GEORGES GORSE",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "AMELIE ANDRE",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "04/05/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "CATHERINE BOUILLE-MACHEZ",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "17/11/2009",
+        "section": "B"
+      },
+      {
+        "fullName": "PASCALE COUSIN",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "28/07/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "ANNE-CHARLOTTE DE MARESCHAL",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "04/06/2009",
+        "section": "B"
+      },
+      {
+        "fullName": "PASCALE DEBLED",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "30/06/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "LAURENCE DELEMOTTE-BERTHIER",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "27/06/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "ANNE FORESTIER",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "16/07/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "HENRI GUENARD",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "18/08/2018",
+        "section": "B"
+      },
+      {
+        "fullName": "SUZANNE HAMDAN",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "05/02/2016",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE LAYUS",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "17/03/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "MARIE LEBARBIER",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "30/06/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "VALERIE MASSON",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "21/07/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "JUSTIN RANGER",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "15/04/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "STEPHANE SIMON",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "06/03/2017",
+        "section": "B"
+      },
+      {
+        "fullName": "SARAH STIRN",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "21/02/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "VINCENT THEAS",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "07/02/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "VIRGINIE THENEAU",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "13/04/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE DESENS - LE VAN",
+    "codeCity": "",
+    "city": "",
+    "address": "219B BD JEAN JAURES",
+    "phone": "0146211203",
+    "fax": "0146218361",
+    "pharmacists": [
+      {
+        "fullName": "JEAN-FABRICE DESENS",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "12/06/2014",
+        "section": "A"
+      },
+      {
+        "fullName": "FLORENCE GODIOZ-DEMAISON",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/06/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "CAN-FREDERIC LE VAN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "12/06/2014",
+        "section": "A"
+      },
+      {
+        "fullName": "SIMON LEFORT",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/06/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "SUJATA TEA",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/06/2014",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "HU-PARIS IDF SITE AMBROISE PARIS APHP",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "9 AV CHARLES DE GAULLE",
+    "phone": "0149094569",
+    "fax": "0",
+    "pharmacists": [
+      {
+        "fullName": "LAMIAE GRIMALDI-BENSOUDA",
+        "role": "PROFESSEUR-PRATICIEN HOSPITALIER",
+        "inscriptionDate": "18/04/2019",
+        "section": "H"
+      },
+      {
+        "fullName": "JACQUES ROPERS",
+        "role": "PHARMACIEN-PRATICIEN HOSPITALIER",
+        "inscriptionDate": "20/07/2017",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "BIOTEK",
+    "codeCity": "",
+    "city": "",
+    "address": "40 AV PIERRE LEFAUCHEUX",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "CORINNE ADAM-ARTHAUD",
+        "role": "BIOLOGISTE MÉDICAL (SALARIÉ)",
+        "inscriptionDate": "01/04/2022",
+        "section": "G"
+      },
+      {
+        "fullName": "LISE BLANCPAIN",
+        "role": "BIOLOGISTE MÉDICAL (LIBÉRAL)",
+        "inscriptionDate": "01/04/2022",
+        "section": "G"
+      },
+      {
+        "fullName": "ALEXANDRE GUIARD",
+        "role": "BIOLOGISTE MÉDICAL (SALARIÉ)",
+        "inscriptionDate": "01/04/2022",
+        "section": "G"
+      },
+      {
+        "fullName": "CECILE LEVIANDIER",
+        "role": "BIOLOGISTE MÉDICAL (LIBÉRAL)",
+        "inscriptionDate": "01/04/2022",
+        "section": "G"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE OZIEL-UZAN",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "31 R LE CORBUSIER",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "JOHANNA ELFASSY",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "12/09/2013",
+        "section": "D"
+      },
+      {
+        "fullName": "MICHELE OZIEL",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "14/12/1987",
+        "section": "A"
+      },
+      {
+        "fullName": "RAPHAEL OZIEL",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "30/10/2019",
+        "section": "D"
+      },
+      {
+        "fullName": "MOURAD SAYAD",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "16/03/2022",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE KOK",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "106/108 R DU POINT DU JOUR",
+    "phone": "0146205316",
+    "fax": "0146216324",
+    "pharmacists": [
+      {
+        "fullName": "ARIEL BENAICHE-LEVY",
+        "role": "GERANT APRES DECES DU TITULAIRE",
+        "inscriptionDate": "03/06/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "MEHDIA LEBBADI",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "05/09/2022",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "AMGEN SAS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "18-20 QU DU POINT DU JOUR",
+    "phone": "0170289000",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "HANANE AZIZI",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "23/09/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "DJORDJE BLAGOJEVIC",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "24/08/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "ALEXANDRA BOUVARD LESTANG",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "29/05/2017",
+        "section": "B"
+      },
+      {
+        "fullName": "AUDE HIPPOLYTE",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "21/08/2015",
+        "section": "B"
+      },
+      {
+        "fullName": "CHARLOTTE LE CLERC DE BUSSY",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "23/06/2017",
+        "section": "B"
+      },
+      {
+        "fullName": "AMANDA LESCASTREYRES",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "05/04/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "AUDE LHUISSIER",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "01/02/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "ANNE-SOPHIE MALINOWSKI",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "23/09/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "KAMELYA MOUTAFAKIR",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "22/06/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "JADE PACHECO",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "11/01/2021",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE QUINTAINE-LACOUR",
+    "codeCity": "",
+    "city": "",
+    "address": "95 R DU POINT DU JOUR",
+    "phone": "0146202470",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "SARAH GEBRAIL",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "26/07/2016",
+        "section": "D"
+      },
+      {
+        "fullName": "STEPHANIE MAZENQ-LEFRANC",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/08/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "CAROLE QUINTAINE-LACOUR",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/08/2014",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "CENTRE CHIRURGICAL DES PRINCES",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "13 ROND POINT ANDRE MALRAUX",
+    "phone": "0146992200",
+    "fax": "0144141166",
+    "pharmacists": [
+      {
+        "fullName": "JOELLE KHAYAT",
+        "role": "PHARMACIEN GÉRANT ES PRIVÉ T.PARTI",
+        "inscriptionDate": "07/12/2021",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "",
+    "phone": "",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "FABIENNE BERTRAND BASCHUNG",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "20/09/2018",
+        "section": "D"
+      },
+      {
+        "fullName": "NATHALIE DAPENA-JAUNEAU",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "21/09/2018",
+        "section": "D"
+      },
+      {
+        "fullName": "ARMELLE DEPREZ-SOUVERAIN",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "02/06/2014",
+        "section": "A"
+      },
+      {
+        "fullName": "CAROLINE MENDES FRANCE-GRUMAN",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "19/06/2020",
+        "section": "D"
+      },
+      {
+        "fullName": "SARAH SELLAM",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "30/12/2020",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE COHEN-BOULANGER",
+    "codeCity": "",
+    "city": "",
+    "address": "49 AV VICTOR HUGO",
+    "phone": "0146050114",
+    "fax": "0146058671",
+    "pharmacists": [
+      {
+        "fullName": "SANDRINE COHEN-BOULANGER",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/11/2007",
+        "section": "A"
+      },
+      {
+        "fullName": "SABRINA GIARDINA",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "10/10/2014",
+        "section": "D"
+      },
+      {
+        "fullName": "LÉA NIZARD",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "17/09/2012",
+        "section": "D"
+      },
+      {
+        "fullName": "MURIEL WOLKOWICZ-DABROWSKI",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "07/04/2021",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "OCTAPHARMA FRANCE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "62B AV ANDRE MORIZET",
+    "phone": "0141318023",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "GUILLAUME LE NY",
+        "role": "ADJOINT INDUSTRIE",
+        "inscriptionDate": "31/08/2021",
+        "section": "B"
+      },
+      {
+        "fullName": "CHRISTIAN RENAUX",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "16/12/2013",
+        "section": "B"
+      },
+      {
+        "fullName": "ISABELLE TOUSSAINT",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "31/12/2013",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "CLINIQUE MARCEL SEMBAT",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "105/107 AV VICTOR HUGO",
+    "phone": "0147119999",
+    "fax": "0147119934",
+    "pharmacists": [
+      {
+        "fullName": "AUDREY GLANARD",
+        "role": "PHARMACIEN GÉRANT ES PRIVÉ T.PLEIN",
+        "inscriptionDate": "13/07/2022",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "CENTRE DE GERONTOLOGIE",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "52 R DES ABONDANCES",
+    "phone": "0146050765",
+    "fax": "0141225647",
+    "pharmacists": [
+      {
+        "fullName": "CATHERINE COUDERT-LEJAY",
+        "role": "PHARMACIEN CONTRACTUEL T.PARTIEL",
+        "inscriptionDate": "19/10/2017",
+        "section": "H"
+      },
+      {
+        "fullName": "NICOLAS GERONDEAU",
+        "role": "PHARMACIEN PRATICIEN CONTRACTUEL",
+        "inscriptionDate": "19/07/2022",
+        "section": "H"
+      },
+      {
+        "fullName": "CLAIRE RIPOUTEAU",
+        "role": "PHARMACIEN-PRATICIEN HOSPITALIER",
+        "inscriptionDate": "13/07/2017",
+        "section": "H"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE LEVIEILS-ADOLPHE",
+    "codeCity": "",
+    "city": "",
+    "address": "5 R DE CLAMART",
+    "phone": "0146212708",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "ISABELLE ADOLPHE",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/04/2018",
+        "section": "A"
+      },
+      {
+        "fullName": "CHANNY MOEUR",
+        "role": "PHARMACIEN ADJOINT D'OFFICINE",
+        "inscriptionDate": "01/10/2020",
+        "section": "D"
+      }
+    ]
+  },
+  {
+    "legalName": "AMRYT PHARMACEUTICALS SAS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "235 AV LE JOUR SE LEVE",
+    "phone": "0146891254",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "VINCENT BOULDOIRES",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "18/06/2020",
+        "section": "B"
+      },
+      {
+        "fullName": "LYDIE SERENA",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "01/07/2021",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE NORE-VIDAL",
+    "codeCity": "",
+    "city": "",
+    "address": "7 RTE DE LA REINE",
+    "phone": "0146043278",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "NADA BENJELLOUN-LE CHARPENTIER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "01/11/2021",
+        "section": "D"
+      },
+      {
+        "fullName": "ISABELLE NORE-VIDAL",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "01/11/2021",
+        "section": "A"
+      }
+    ]
+  },
+  {
+    "legalName": "DR. FALK PHARMA SAS",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "32-36 R DE BELLEVUE",
+    "phone": "0178900271",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "CATHERINE COMPAGNE",
+        "role": "PHARMACIEN RESPONSABLE INTERIMAIRE",
+        "inscriptionDate": "07/06/2022",
+        "section": "B"
+      },
+      {
+        "fullName": "LAURENCE SOYER",
+        "role": "PHARMACIEN RESPONSABLE",
+        "inscriptionDate": "07/06/2022",
+        "section": "B"
+      }
+    ]
+  },
+  {
+    "legalName": "SELARL LABORATOIRE DU GÉNÉRAL LECLERC",
+    "codeCity": "92100",
+    "city": "BOULOGNE-BILLANCOURT",
+    "address": "69-73 AV DU GENERAL LECLERC",
+    "phone": "0146211577",
+    "fax": "0146081387",
+    "pharmacists": [
+      {
+        "fullName": "KHIRIA BELGACEM",
+        "role": "BIOLOGISTE-CORESPONSABLE",
+        "inscriptionDate": "27/06/2022",
+        "section": "G"
+      },
+      {
+        "fullName": "AUDREY BELLITY-LENG",
+        "role": "BIOLOGISTE-CORESPONSABLE",
+        "inscriptionDate": "01/04/2020",
+        "section": "G"
+      }
+    ]
+  },
+  {
+    "legalName": "PHARMACIE SOROUSH",
+    "codeCity": "",
+    "city": "",
+    "address": "34 AV PIERRE GRENIER",
+    "phone": "0146207070",
+    "fax": "",
+    "pharmacists": [
+      {
+        "fullName": "RÉZA SOROUSH",
+        "role": "PHARMACIEN TITULAIRE D'OFFICINE",
+        "inscriptionDate": "12/11/2012",
+        "section": "A"
+      },
+      {
+        "fullName": "NATHALIE WILLEMIN-MESER",
+        "role": "ADJOINT D'OFFICINE TEMPS PARTIEL",
+        "inscriptionDate": "12/11/2012",
+        "section": "D"
+      }
+    ]
+  }
+]
