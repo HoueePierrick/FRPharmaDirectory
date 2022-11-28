@@ -25,7 +25,7 @@ const getAllPharmas = async () => {
   for (let i = 0; i < allPostalCodes.length; i++) {
     setTimeout(() => {
       console.log(`Scrapping city number: ${i + 1}`);
-    }, 74);
+    }, 3700);
     newArray = await getCityPharmas(allPostalCodes[i]);
     if (newArray) {
       if (newArray.length > 0) {
