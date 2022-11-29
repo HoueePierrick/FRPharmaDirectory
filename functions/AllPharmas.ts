@@ -25,9 +25,8 @@ const getAllPharmas = async () => {
   let pharmaArray: pageList[] = [];
   let newArray: pageList[] | undefined = [];
   for (let i = 0; i < allPostalCodes.length; i++) {
-    setTimeout(() => {
-      console.log(`Scrapping city number: ${i + 1}`);
-    }, 277);
+    sleep(277);
+    console.log(`Scrapping city number: ${i + 1}`);
     newArray = await getCityPharmas(allPostalCodes[i]);
     // newArray = await getCityPharmas("92100");
     if (newArray) {
@@ -42,9 +41,10 @@ const getAllPharmas = async () => {
 };
 
 // console.log(allPostalCodes[153]);
-const AllPharmas = await getAllPharmas();
 // // // console.log(AllPharmas);
-await saveToFile(AllPharmas, "allPharmas");
+
+// const AllPharmas = await getAllPharmas();
+// await saveToFile(AllPharmas, "allPharmas");
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(allPostalCodes[i]);

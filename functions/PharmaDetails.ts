@@ -3,8 +3,8 @@ import puppeteer from "puppeteer";
 import { saveToFile } from "./AllPharmas.js";
 import request from "request-promise";
 import cheerio from "cheerio";
-
-import data from "../generated-data/92100.json" assert { type: "json" };
+import sleep from "./Sleep.js";
+import data from "../generated-data/allPharmas.json" assert { type: "json" };
 
 // As an example
 // const reine = {
@@ -33,9 +33,13 @@ interface pharmacists {
 }
 
 interface result {
+  sid: string | null | undefined;
+  name: string | null | undefined;
   legalName: string;
+  tradeName: string;
   codeCity: string;
   city: string;
+  category: string | null | undefined;
   address: string;
   phone: string;
   fax: string;
@@ -120,68 +124,102 @@ const getPharmacyDetails = async (input: pageList) => {
   } else {
     searchURL = `https://www.ordre.pharmacien.fr/annuaire/etablissement?zipcode=${postalCode}&page=${pagenum}`;
   }
-  const query = await request.get(searchURL);
-  const htmlResult = query && query;
-  const $ = await cheerio.load(htmlResult);
-  console.log(`Scrapping pharmacy ${name}`);
+  try {
+    const query = await request.get(searchURL);
+    const htmlResult = query && query;
+    const $ = await cheerio.load(htmlResult);
+    console.log(`Scrapping pharmacy ${name}`);
 
-  // Getting all relevant elements to be scrapped
-  let focus = $(".toggle-block > li");
-  let allElems = $(".inlineBlock > p");
-  const keyData = allElems.map((i, e) => {
-    return $(e).text().trim().split("\n");
-  });
-  let legalName: string = "";
-  let codeCity: string = "";
-  let city: string = "";
-  let address: string = "";
-  let phone: string = "";
-  let fax: string = "";
-  let pharmacistArray: pharmacists[] = [];
-  for (let i = 0; i < keyData.length; i++) {
-    if (keyData[i].length === 3) {
-      legalName = keyData[i][0].split(" : ")[1];
-      address = keyData[i][1].split(" : ")[1];
-    } else if (keyData[i][0].substring(0, 19) === "Code postal - ville") {
-      const cityData = keyData[i][0].split(" : ")[1];
-      codeCity = cityData.split(" ")[0];
-      city = cityData.substring(codeCity.length + 1, cityData.length);
-    } else if (keyData[i][0].substring(0, 9) === "Téléphone") {
-      phone = keyData[i][0].split(" : ")[1];
-    } else if (keyData[i][0].substring(0, 9) === "Télécopie") {
-      fax = keyData[i][0].split(" : ")[1];
-    } else if (
-      keyData[i].length === 4 &&
-      keyData[i][0].toUpperCase() === keyData[i][0]
-    ) {
-      const fullName = keyData[i][0];
-      const role = keyData[i][1];
-      const inscriptionDate = keyData[i][2].split(" : ")[1];
-      const section = keyData[i][3].split(" : ")[1];
-      pharmacistArray.push({ fullName, role, inscriptionDate, section });
+    // Getting all relevant elements to be scrapped
+    let focus = $(".toggle-block > li");
+    // let allElems = $(".inlineBlock > p");
+    // const keyData = allElems.map((i, e) => {
+    //   return $(e).text().trim().split("\n");
+    // });
+
+    $(".hidden-xs").remove();
+    let allElems = $(".inlineBlock > p");
+    const keyData: any = allElems.map((i, e) => {
+      return $(e)
+        .text()
+        .replace(/ +(?= )/g, "")
+        .trim()
+        .split("\n");
+    });
+    let cleanData: any[] = [];
+    for (let i = 0; i < keyData.length; i++) {
+      let newPush: string[] = [];
+      for (let j = 0; j < keyData[i].length; j++) {
+        if (keyData[i][j].length > 1) {
+          newPush.push(keyData[i][j].trim());
+        }
+      }
+      cleanData.push(newPush);
     }
+
+    let legalName: string = "";
+    let tradeName: string = "";
+    let codeCity: string = "";
+    let city: string = "";
+    let address: string = "";
+    let phone: string = "";
+    let fax: string = "";
+    let pharmacistArray: pharmacists[] = [];
+    // for (let i = 0; i < keyData.length; i++) {
+    //   if (keyData[i].length === 3) {
+    //     legalName = keyData[i][0].split(" : ")[1];
+    //     address = keyData[i][1].split(" : ")[1];
+    //   } else if (keyData[i][0].substring(0, 19) === "Code postal - ville") {
+    //     const cityData = keyData[i][0].split(" : ")[1];
+    //     codeCity = cityData.split(" ")[0];
+    //     city = cityData.substring(codeCity.length + 1, cityData.length);
+    //   } else if (keyData[i][0].substring(0, 9) === "Téléphone") {
+    //     phone = keyData[i][0].split(" : ")[1];
+    //   } else if (keyData[i][0].substring(0, 9) === "Télécopie") {
+    //     fax = keyData[i][0].split(" : ")[1];
+    //   } else if (
+    //     keyData[i].length === 4 &&
+    //     keyData[i][0].toUpperCase() === keyData[i][0]
+    //   ) {
+    //     const fullName = keyData[i][0];
+    //     const role = keyData[i][1];
+    //     const inscriptionDate = keyData[i][2].split(" : ")[1];
+    //     const section = keyData[i][3].split(" : ")[1];
+    //     pharmacistArray.push({ fullName, role, inscriptionDate, section });
+    //   }
+    // }
+    for (let i = 0; i < keyData.length; i++) {}
+    return {
+      sid,
+      name,
+      legalName,
+      tradeName,
+      codeCity,
+      city,
+      category,
+      address,
+      phone,
+      fax,
+      pharmacists: pharmacistArray,
+    };
+  } catch (error: any) {
+    console.log(error.message);
   }
-  return {
-    legalName,
-    codeCity,
-    city,
-    address,
-    phone,
-    fax,
-    pharmacists: pharmacistArray,
-  };
 };
 
 let testjson: result[] = [];
 
 for (let i = 0; i < data.length; i++) {
+  sleep(277);
+  console.log(`Scraping pharmacy number ${i + 1}`);
   const tobepushed = await getPharmacyDetails(data[i]);
-  testjson.push(tobepushed);
+  tobepushed && testjson.push(tobepushed);
 }
 
-saveToFile(testjson, "92100details");
+saveToFile(testjson, "AllDetails");
 
 export default getPharmacyDetails;
+
 // const displayed = await getPharmacyDetails(reine);
 // console.log(displayed);
 

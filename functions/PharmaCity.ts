@@ -55,7 +55,7 @@ const pageHasResults = async (i: number, postalCode: string) => {
 };
 
 export interface pageList {
-  sid: string | null | undefined;
+  sid?: string | null | undefined;
   category: string | null | undefined;
   name: string | null | undefined;
   pagenum: number;
