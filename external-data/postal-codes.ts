@@ -26,5 +26,5 @@ for (let i = 0; i < postOfficeData.length; i++) {
 
 allPostalCodes = allPostalCodes.sort();
 
-// console.log(allPostalCodes);
+console.log(allPostalCodes.length);
 export default allPostalCodes;
