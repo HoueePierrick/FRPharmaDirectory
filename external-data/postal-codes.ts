@@ -1,20 +1,21 @@
 import data from "./laposte_hexasmal.json" assert { type: "json" };
+import { postData } from "../functions/Interfaces";
 
-type GPSCoords = [number, number];
+// type GPSCoords = [number, number];
 
-interface postData {
-  datasetid: string;
-  recordid: string;
-  fields: {
-    nom_de_la_commune: string;
-    libelle_d_acheminement: string;
-    code_postal: string;
-    coordonnees_gps: GPSCoords;
-    code_commune_insee: string;
-  };
-  geometry: { type: string; coordinates: GPSCoords };
-  record_timestamp: string;
-}
+// interface postData {
+//   datasetid: string;
+//   recordid: string;
+//   fields: {
+//     nom_de_la_commune: string;
+//     libelle_d_acheminement: string;
+//     code_postal: string;
+//     coordonnees_gps: GPSCoords;
+//     code_commune_insee: string;
+//   };
+//   geometry: { type: string; coordinates: GPSCoords };
+//   record_timestamp: string;
+// }
 
 // const postOfficeData = require("./laposte_hexasmal.json");
 const postOfficeData: postData[] = data as postData[];
