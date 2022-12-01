@@ -1,24 +1,25 @@
-import fs from "fs";
+// import fs from "fs";
 import allPostalCodes from "../external-data/postal-codes.js";
 import getCityPharmas from "./PharmaCity.js";
-import { pageList } from "./PharmaCity.js";
+import { pageList } from "./Interfaces";
 import sleep from "./Sleep.js";
+import saveToFile from "./SaveToFile.js";
 
-export const saveToFile = async (data: any, name: string) => {
-  fs.writeFile(
-    // "../generated-data/allPharmas.json",
-    `../generated-data/${name}.json`,
-    JSON.stringify(data),
-    "utf8",
-    (err: any) => {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log("scrapping terminé");
-      }
-    }
-  );
-};
+// export const saveToFile = async (data: any, name: string) => {
+//   fs.writeFile(
+//     // "../generated-data/allPharmas.json",
+//     `../generated-data/${name}.json`,
+//     JSON.stringify(data),
+//     "utf8",
+//     (err: any) => {
+//       if (err) {
+//         console.log(err);
+//       } else {
+//         console.log("scrapping terminé");
+//       }
+//     }
+//   );
+// };
 
 // Test on 3 cities with 2 max (allPostalCodes.length)
 const getAllPharmas = async () => {

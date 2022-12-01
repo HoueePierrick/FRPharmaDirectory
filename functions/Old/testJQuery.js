@@ -6,7 +6,7 @@ let city = "";
 let address = "";
 let phone = "";
 let fax = "";
-let pharmacistArray = [];
+let pharmacists = [];
 
 $(".hidden-xs").remove();
 let allElems = $(".inlineBlock > p");
@@ -31,12 +31,13 @@ for (let i = 0; i < cleanDataOne.length; i++) {
   }
   cleanDataTwo.push(newPush);
 }
-console.log(cleanDataTwo);
+// console.log(cleanDataTwo);
+
 for (let i = 0; i < cleanDataTwo.length; i++) {
   if (cleanDataTwo[i][0] === "Raison sociale :") {
     legalName = cleanDataTwo[i][1];
     if (cleanDataTwo[i][2] === "Adresse :") {
-      address = cleanDataTwo[i][2] + cleanDataTwo[i][3];
+      address = cleanDataTwo[i][3] + " " + cleanDataTwo[i][4];
     }
   }
   if (cleanDataTwo[i][0] === "Dén. commerciale :") {
@@ -46,4 +47,37 @@ for (let i = 0; i < cleanDataTwo.length; i++) {
       city = cleanDataTwo[i][4];
     }
   }
+  if (cleanDataTwo[i][0] === "Code postal - ville :") {
+    codeCity = cleanDataTwo[i][1];
+    city = cleanDataTwo[i][2];
+  }
+  if (cleanDataTwo[i][0] === "Téléphone :") {
+    phone = cleanDataTwo[i][1];
+  }
+  if (cleanDataTwo[i][0] === "Télécopie :") {
+    fax = cleanDataTwo[i][1];
+  } else if (cleanDataTwo[i].length === 4) {
+    let pharmacist = {
+      fullName: cleanDataTwo[i][0],
+      role: cleanDataTwo[i][1],
+      inscriptionDate: cleanDataTwo[i][2].split(" : ")[1],
+      section: cleanDataTwo[i][3].split(" : ")[1],
+    };
+    pharmacists.push(pharmacist);
+  }
 }
+
+if (tradeName === "") {
+  tradeName = legalName;
+}
+
+let result = {
+  legalName,
+  tradeName,
+  codeCity,
+  city,
+  address,
+  phone,
+  fax,
+  pharmacists,
+};

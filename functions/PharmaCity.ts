@@ -2,6 +2,7 @@
 import puppeteer from "puppeteer";
 import request from "request-promise";
 import cheerio from "cheerio";
+import { pageList } from "./Interfaces";
 
 // Function to tell is a page has results - Option with puppeteer
 // const pageHasResults = async (i: number, postalCode: string) => {
@@ -54,13 +55,13 @@ const pageHasResults = async (i: number, postalCode: string) => {
   }
 };
 
-export interface pageList {
-  sid?: string | null | undefined;
-  category: string | null | undefined;
-  name: string | null | undefined;
-  pagenum: number;
-  postalCode: string;
-}
+// export interface pageList {
+//   sid?: string | null | undefined;
+//   category: string | null | undefined;
+//   name: string | null | undefined;
+//   pagenum: number;
+//   postalCode: string;
+// }
 
 // Scrap the list of pharmacies available on a page
 // const pagePharmas = async (z: number, postalCode: string) => {

@@ -1,10 +1,17 @@
-import { pageList } from "./PharmaCity";
-import puppeteer from "puppeteer";
-import { saveToFile } from "./AllPharmas.js";
+import { pageList } from "./Interfaces";
+// import puppeteer from "puppeteer";
+import saveToFile from "./SaveToFile.js";
 import request from "request-promise";
 import cheerio from "cheerio";
 import sleep from "./Sleep.js";
-import data from "../generated-data/allPharmas.json" assert { type: "json" };
+import { pharmacists, result } from "./Interfaces";
+
+// import { readFile } from "fs/promises";
+// const data = JSON.parse(
+//   await readFile(new URL("../generated-data/allPharmas.json", import.meta.url))
+// );
+import data from "../generated-data/allPharmasData.js";
+// import data from "../generated-data/allPharmas.json";
 
 // As an example
 // const reine = {
@@ -25,26 +32,28 @@ import data from "../generated-data/allPharmas.json" assert { type: "json" };
 // };
 
 // Interfaces documenting the expected result
-interface pharmacists {
-  fullName: string;
-  role: string;
-  inscriptionDate: string;
-  section: string;
-}
+// interface pharmacists {
+//   fullName: string;
+//   role: string;
+//   inscriptionDate: string;
+//   section: string;
+// }
 
-interface result {
-  sid: string | null | undefined;
-  name: string | null | undefined;
-  legalName: string;
-  tradeName: string;
-  codeCity: string;
-  city: string;
-  category: string | null | undefined;
-  address: string;
-  phone: string;
-  fax: string;
-  pharmacists: pharmacists[];
-}
+// interface result {
+//   sid: string | null | undefined;
+//   name: string | null | undefined;
+//   legalName: string;
+//   tradeName: string;
+//   codeCity: string;
+//   city: string;
+//   category: string | null | undefined;
+//   address: string;
+//   phone: string;
+//   fax: string;
+//   pharmacists: pharmacists[];
+// }
+
+const finalResult: result[] = [];
 
 // Function to get pharmacy details
 // const getPharmacyDetails = async (input: pageList) => {
@@ -137,25 +146,25 @@ const getPharmacyDetails = async (input: pageList) => {
     //   return $(e).text().trim().split("\n");
     // });
 
-    $(".hidden-xs").remove();
-    let allElems = $(".inlineBlock > p");
-    const keyData: any = allElems.map((i, e) => {
-      return $(e)
-        .text()
-        .replace(/ +(?= )/g, "")
-        .trim()
-        .split("\n");
-    });
-    let cleanData: any[] = [];
-    for (let i = 0; i < keyData.length; i++) {
-      let newPush: string[] = [];
-      for (let j = 0; j < keyData[i].length; j++) {
-        if (keyData[i][j].length > 1) {
-          newPush.push(keyData[i][j].trim());
-        }
-      }
-      cleanData.push(newPush);
-    }
+    // $(".hidden-xs").remove();
+    // let allElems = $(".inlineBlock > p");
+    // const keyData: any = allElems.map((i, e) => {
+    //   return $(e)
+    //     .text()
+    //     .replace(/ +(?= )/g, "")
+    //     .trim()
+    //     .split("\n");
+    // });
+    // let cleanData: any[] = [];
+    // for (let i = 0; i < keyData.length; i++) {
+    //   let newPush: string[] = [];
+    //   for (let j = 0; j < keyData[i].length; j++) {
+    //     if (keyData[i][j].length > 1) {
+    //       newPush.push(keyData[i][j].trim());
+    //     }
+    //   }
+    //   cleanData.push(newPush);
+    // }
 
     let legalName: string = "";
     let tradeName: string = "";
@@ -164,7 +173,7 @@ const getPharmacyDetails = async (input: pageList) => {
     let address: string = "";
     let phone: string = "";
     let fax: string = "";
-    let pharmacistArray: pharmacists[] = [];
+    let pharmacists: pharmacists[] = [];
     // for (let i = 0; i < keyData.length; i++) {
     //   if (keyData[i].length === 3) {
     //     legalName = keyData[i][0].split(" : ")[1];
@@ -188,8 +197,72 @@ const getPharmacyDetails = async (input: pageList) => {
     //     pharmacistArray.push({ fullName, role, inscriptionDate, section });
     //   }
     // }
-    for (let i = 0; i < keyData.length; i++) {}
-    return {
+    // for (let i = 0; i < keyData.length; i++) {}
+
+    $(".hidden-xs").remove();
+    let allElems = $(".inlineBlock > p");
+    const keyData = allElems.map((i, e) => {
+      return $(e)
+        .text()
+        .replace(/ +(?= )/g, "")
+        .trim();
+    });
+    let cleanDataOne: string[][] = [];
+    let cleanDataTwo: string[][] = [];
+    for (let i = 0; i < keyData.length; i++) {
+      let newPush: string[] = keyData[i].split("\n");
+      cleanDataOne.push(newPush);
+    }
+    for (let i = 0; i < cleanDataOne.length; i++) {
+      let newPush: string[] = [];
+      for (let j = 0; j < cleanDataOne[i].length; j++) {
+        if (cleanDataOne[i][j].length > 1) {
+          newPush.push(cleanDataOne[i][j].trim());
+        }
+      }
+      cleanDataTwo.push(newPush);
+    }
+    // console.log(cleanDataTwo);
+
+    for (let i = 0; i < cleanDataTwo.length; i++) {
+      if (cleanDataTwo[i][0] === "Raison sociale :") {
+        legalName = cleanDataTwo[i][1];
+        if (cleanDataTwo[i][2] === "Adresse :") {
+          address = cleanDataTwo[i][3] + " " + cleanDataTwo[i][4];
+        }
+      }
+      if (cleanDataTwo[i][0] === "Dén. commerciale :") {
+        tradeName = cleanDataTwo[i][1];
+        if (cleanDataTwo[i][2] === "Code postal - ville :") {
+          codeCity = cleanDataTwo[i][3];
+          city = cleanDataTwo[i][4];
+        }
+      }
+      if (cleanDataTwo[i][0] === "Code postal - ville :") {
+        codeCity = cleanDataTwo[i][1];
+        city = cleanDataTwo[i][2];
+      }
+      if (cleanDataTwo[i][0] === "Téléphone :") {
+        phone = cleanDataTwo[i][1];
+      }
+      if (cleanDataTwo[i][0] === "Télécopie :") {
+        fax = cleanDataTwo[i][1];
+      } else if (cleanDataTwo[i].length === 4) {
+        let pharmacist = {
+          fullName: cleanDataTwo[i][0],
+          role: cleanDataTwo[i][1],
+          inscriptionDate: cleanDataTwo[i][2].split(" : ")[1],
+          section: cleanDataTwo[i][3].split(" : ")[1],
+        };
+        pharmacists.push(pharmacist);
+      }
+    }
+
+    if (tradeName === "") {
+      tradeName = legalName;
+    }
+
+    const result = {
       sid,
       name,
       legalName,
@@ -200,8 +273,10 @@ const getPharmacyDetails = async (input: pageList) => {
       address,
       phone,
       fax,
-      pharmacists: pharmacistArray,
+      pharmacists,
     };
+    console.log(result);
+    finalResult.push();
   } catch (error: any) {
     console.log(error.message);
   }
@@ -210,13 +285,12 @@ const getPharmacyDetails = async (input: pageList) => {
 let testjson: result[] = [];
 
 for (let i = 0; i < data.length; i++) {
-  sleep(277);
+  await sleep(277);
   console.log(`Scraping pharmacy number ${i + 1}`);
-  const tobepushed = await getPharmacyDetails(data[i]);
-  tobepushed && testjson.push(tobepushed);
+  await getPharmacyDetails(data[i]);
 }
 
-saveToFile(testjson, "AllDetails");
+saveToFile(finalResult, "AllDetails");
 
 export default getPharmacyDetails;
 

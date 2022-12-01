@@ -1,13 +1,19 @@
-const getContent = async (page, element) => {
-  const contentStr = await page.evaluate((element) => {
-    const contentEl = document.querySelector(element);
-    const content = contentEl?.getAttribute("content");
+// const data = require("../generated-data/allPharmas.json");
+import data from "../generated-data/allPharmasData.js";
+// const result = JSON.parse(data);
 
-    if (content != null && content.length > 0) {
-      return content;
-    } else {
-      return null;
-    }
-  }, element);
-  return contentStr;
-};
+// import { readFile } from "fs/promises";
+
+// // const reader = async () => {
+// //   const json = JSON.parse(
+// //     await readFile(
+// //       //   "../generated-data/allPharmas.json"
+// //       new URL("../generated-data/allPharmas.json", import.meta.url)
+// //     ).toString()
+// //   );
+// //   return json;
+// // };
+
+// console.log(reader());
+
+console.log(data.length);
