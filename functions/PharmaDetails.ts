@@ -276,7 +276,7 @@ const getPharmacyDetails = async (input: pageList) => {
       pharmacists,
     };
     console.log(result);
-    finalResult.push();
+    finalResult.push(result);
   } catch (error: any) {
     console.log(error.message);
   }
