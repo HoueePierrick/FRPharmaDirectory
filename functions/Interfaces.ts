@@ -42,3 +42,19 @@ export interface result {
   fax: string;
   pharmacists: pharmacists[];
 }
+
+export interface pharmacist {
+  pharmacyName: string | null | undefined;
+  legalName: string;
+  tradeName: string;
+  codeCity: string;
+  city: string;
+  category: string | null | undefined;
+  address: string;
+  phone: string;
+  fax: string;
+  fullName: string;
+  role: string;
+  inscriptionDate: string | undefined;
+  section: string | undefined;
+}
