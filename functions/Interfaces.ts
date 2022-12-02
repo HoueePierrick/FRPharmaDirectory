@@ -53,6 +53,7 @@ export interface pharmacist {
   address: string;
   phone: string;
   fax: string;
+  pharmacistCount: number;
   fullName: string;
   role: string;
   inscriptionDate: string | undefined;
